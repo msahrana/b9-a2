@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .nav-container, .nav-content, .banner-input {
+        flex-direction: column;
+    }
+    .box-1, .box-2{
+
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+    }
+   
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
