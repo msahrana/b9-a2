@@ -1,4 +1,5 @@
-body {
+header,
+main {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0;
@@ -11,10 +12,33 @@ body {
   background-color: #ff5400;
   color: #fff;
   padding: 5px 20px;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 15px;
 }
-.paragraph-1 {
+.btn-secondary {
+  background-color: #ff5400;
+  width: 393px;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 100px;
+  margin-top: 20px;
+}
+.title-style {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.para-1 {
   color: #fff;
   text-align: center;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.para-2 {
+  color: #5a5a5d;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 20px;
@@ -74,4 +98,203 @@ body {
   border: 0;
   border-radius: 5px;
   margin-right: 24px;
+}
+/* tours section */
+.tours-container {
+  margin-top: 90px;
+  display: flex;
+}
+.tours-content text,
+.tours-content li {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+/* destination section */
+.destination-img-container {
+  margin: 0 auto;
+}
+.badge {
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.img-container-1 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.img-container-2 {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+.img-container-3 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+/* choose section */
+.choose-container {
+  text-align: center;
+  align-items: center;
+}
+.choose-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.choose-div {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.choose-div-1 {
+  margin-left: 0px;
+  margin: 0 auto;
+}
+.choose-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 20px;
+  width: 50%;
+  height: 284px;
+}
+.choose-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 20px;
+  width: 50%;
+  height: 284px;
+}
+.choose-3 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 20px;
+  width: 50%;
+  height: 284px;
+  margin-top: 20px;
+}
+/* trusted-section */
+.trusted-container {
+  display: flex;
+  gap: 60px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+/* discount-section */
+.deals-container h3,
+.deals-container > p {
+  text-align: center;
+}
+.deals-discount {
+  background-image: url("/Images/deals-1.png");
+  background-repeat: no-repeat;
+  width: 1170px;
+  height: 500px;
+  padding-top: 30px;
+  padding-left: 535px;
+  margin-bottom: 24px;
+}
+.deals-discount-one {
+  background-image: url("/Images/deals-2.png");
+  background-repeat: no-repeat;
+  width: 1170px;
+  height: 500px;
+  padding-top: 30px;
+  padding-left: 55px;
+  margin-bottom: 24px;
+}
+
+.deals-1 {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+.box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.box img {
+  width: 20px;
+  height: 20px;
+}
+.price-opt {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+.btn-price {
+  color: #fff;
+  background: #ff5400;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 800;
+  border: 0;
+  padding: 8px 20px;
+}
+/* newsletter-section */
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter-content {
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.newsletter-img img {
+  position: relative;
+}
+.news {
+  width: 393px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: 0;
+}
+.discount {
+  border-radius: 16px;
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: 220px;
+  left: 330px;
+}
+.discount p {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+.discount h5 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+/* footer section */
+footer {
+  margin: 0;
+  padding: 0;
+}
+.footer-container {
+  text-align: center;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 0;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
 }
