@@ -193,7 +193,7 @@ main {
   text-align: center;
 }
 .deals-discount {
-  background-image: url("/Images/deals-1.png");
+  background-image: url("../Images/deals-1.png");
   background-repeat: no-repeat;
   width: 1170px;
   height: 500px;
@@ -202,7 +202,7 @@ main {
   margin-bottom: 24px;
 }
 .deals-discount-one {
-  background-image: url("/Images/deals-2.png");
+  background-image: url("../Images/deals-2.png");
   background-repeat: no-repeat;
   width: 1170px;
   height: 500px;
